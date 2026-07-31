@@ -1,5 +1,7 @@
 import "./App.css";
 import { Helmet } from "react-helmet-async";
+import { Routes, Route } from "react-router-dom";
+import Barbers from "./pages/Barbers";
 
 import logoImg from "./assets/logo.png";
 
@@ -11,7 +13,11 @@ import b04Hero from "./assets/b04-hero.png";
 
 function App() {
   return (
-        <main className="pagepop">
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <main className="pagepop">
           <Helmet>
   <title>
     PagePop | One Link for Your Business in Trinidad & Tobago
@@ -394,7 +400,15 @@ function App() {
 
       </footer>
 
-    </main>
+              </main>
+        }
+      />
+
+      <Route
+        path="/for/barbers"
+        element={<Barbers />}
+      />
+    </Routes>
   );
 }
 
