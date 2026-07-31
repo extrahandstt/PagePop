@@ -56,6 +56,11 @@ function App() {
     inLanguage: "en-TT"
   })}
 </script>
+
+<link
+  rel="canonical"
+  href="https://extrahandstt.github.io/PagePop/"
+/>
 </Helmet>
 
       {/* NAV */}
