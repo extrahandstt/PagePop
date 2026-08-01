@@ -1,0 +1,290 @@
+.beauty-page {
+  min-height: 100vh;
+  background: #fff7f5;
+  color: #2b2230;
+  font-family: inherit;
+}
+
+
+/* HERO */
+
+.beauty-hero {
+  min-height: 90vh;
+  padding: 60px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,107,157,0.18),
+      rgba(255,176,124,0.25)
+    );
+}
+
+
+.beauty-badge {
+  display: inline-block;
+  margin: 0 auto 25px;
+  padding: 10px 18px;
+  border-radius: 50px;
+
+  background: white;
+  color: #ff5f95;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+
+.beauty-hero h1 {
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  line-height: 0.95;
+  margin-bottom: 25px;
+}
+
+
+.beauty-hero em {
+  color: #ff5f95;
+  font-style: italic;
+}
+
+
+.beauty-hero p {
+  max-width: 550px;
+  margin: 0 auto 35px;
+
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+
+.beauty-hero button,
+.beauty-book button {
+
+  border: none;
+  cursor: pointer;
+
+  padding: 16px 35px;
+  border-radius: 50px;
+
+  background: #ff5f95;
+  color: white;
+
+  font-size: 1rem;
+  font-weight: 700;
+
+  box-shadow:
+    0 15px 35px rgba(255,95,149,0.25);
+}
+
+
+
+/* SERVICES */
+
+.beauty-services {
+  padding: 70px 25px;
+  text-align: center;
+}
+
+
+.beauty-services h2,
+.beauty-about h2,
+.beauty-book h2 {
+
+  font-size: clamp(2rem,5vw,3rem);
+  margin-bottom: 40px;
+
+}
+
+
+.beauty-grid {
+
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+
+  max-width:1100px;
+  margin:auto;
+
+}
+
+
+.beauty-grid div {
+
+  background:white;
+
+  padding:35px 25px;
+
+  border-radius:30px;
+
+  box-shadow:
+  0 15px 40px rgba(0,0,0,0.06);
+
+}
+
+
+.beauty-grid div:first-letter {
+  font-size:2rem;
+}
+
+
+.beauty-grid h3 {
+
+  margin-top:15px;
+  margin-bottom:10px;
+
+}
+
+
+
+/* ABOUT */
+
+
+.beauty-about {
+
+  padding:80px 25px;
+  text-align:center;
+
+  background:white;
+
+}
+
+
+.beauty-about p {
+
+  max-width:650px;
+  margin:auto;
+
+  font-size:1.15rem;
+  line-height:1.7;
+
+}
+
+
+
+/* CTA */
+
+
+.beauty-book {
+
+  padding:90px 25px;
+
+  text-align:center;
+
+  background:
+  linear-gradient(
+    135deg,
+    #ff6b9d,
+    #ffb07c
+  );
+
+  color:white;
+
+}
+
+
+.beauty-book h2 {
+  color:white;
+}
+
+
+.beauty-book button {
+
+  background:white;
+  color:#ff5f95;
+
+}
+
+.beauty-hero-image {
+
+  width:100%;
+  max-width:500px;
+  margin:0 auto 35px;
+
+}
+
+
+.beauty-hero-image img {
+
+  width:100%;
+  height:500px;
+  object-fit:cover;
+
+  border-radius:40px;
+
+  box-shadow:
+  0 30px 60px rgba(0,0,0,.15);
+
+}
+
+
+
+.beauty-gallery {
+
+ padding:80px 25px;
+ text-align:center;
+
+}
+
+
+.gallery-grid {
+
+ max-width:1100px;
+ margin:auto;
+
+ display:grid;
+
+ grid-template-columns:
+ repeat(auto-fit,minmax(200px,1fr));
+
+ gap:20px;
+
+}
+
+
+.gallery-grid img {
+
+ width:100%;
+ height:260px;
+
+ object-fit:cover;
+
+ border-radius:25px;
+
+}
+
+.launch-offer {
+
+margin:25px auto;
+
+padding:20px;
+
+max-width:350px;
+
+background:white;
+
+border-radius:25px;
+
+color:#ff5f95;
+
+font-weight:600;
+
+box-shadow:
+0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.beauty-logo {
+  margin-bottom: 20px;
+}
+
+.beauty-logo img {
+  width: 230px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

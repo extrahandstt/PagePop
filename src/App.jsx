@@ -2,6 +2,7 @@ import "./App.css";
 import { Helmet } from "react-helmet-async";
 import { Routes, Route } from "react-router-dom";
 import Barbers from "./pages/Barbers";
+import Beauty from "./pages/Beauty";
 
 import logoImg from "./assets/logo.png";
 
@@ -408,6 +409,10 @@ function App() {
         path="/for/barbers"
         element={<Barbers />}
       />
+      <Route
+  path="/for/beauty"
+  element={<Beauty />}
+/>
     </Routes>
   );
 }
