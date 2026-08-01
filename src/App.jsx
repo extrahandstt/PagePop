@@ -65,7 +65,7 @@ function App() {
 
 <link
   rel="canonical"
-  href="https://extrahandstt.github.io/PagePop/"
+  href="https://hookengine.github.io/PagePop/"
 />
 </Helmet>
 
