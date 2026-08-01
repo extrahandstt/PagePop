@@ -19,7 +19,7 @@ export default function Barbers() {
 
         <link
           rel="canonical"
-          href="https://extrahandstt.github.io/PagePop/for/barbers"
+          href="https://hookengine.github.io/PagePop/for/barbers"
         />
       </Helmet>
 
