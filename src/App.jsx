@@ -1,5 +1,6 @@
 import "./App.css";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import Barbers from "./pages/Barbers";
 import Beauty from "./pages/Beauty";
@@ -257,7 +258,7 @@ function App() {
 
         <div className="example-grid">
 
-          <a href="#" className="example-card">
+          <Link to="/for/beauty" className="example-card">
             <div className="example-placeholder beauty">
   <img src={b01Hero} alt="PagePop beauty business example" />
   <span>B01</span>
@@ -268,7 +269,7 @@ function App() {
               <strong>Beauty</strong>
               <span>VIEW ↗</span>
             </div>
-          </a>
+          </Link>
 
 
           <a href="#" className="example-card">
@@ -305,21 +306,21 @@ function App() {
           </a>
 
 
-          <a href="#" className="example-card">
+          <Link to="/for/barbers" className="example-card">
             <div className="example-placeholder barber">
   <img
     src={b04Hero}
     alt="Barber business PagePop example"
   />
   <span>B04</span>
-</div>
+  </div>
 
             <div className="example-info">
               <span>04</span>
               <strong>Barber</strong>
               <span>VIEW ↗</span>
             </div>
-          </a>
+          </Link>
 
         </div>
 
